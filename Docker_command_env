@@ -1,0 +1,49 @@
+docker run
+  301  docker run hello-world -e
+  302  docker run hello-world:latest
+  303  docker run hello-world:latest env
+  304  docker run hello-world:latest env -e
+  305  docker run hello-world:latest env --e
+  306  docker enc --help
+  310  docker run hello-world
+  316  docker images
+  319  docker run hello-world:latest
+  327  docker run hello-world:latest --e
+  328  docker run -e LANG="UTF-8" hello-world
+  329  docker run -e USER='SupriyaDas' hello-world
+  330  docker run hello-world:latest -e USER='SupriyaDas'
+  331  docker run -e USER='SupriyaDas' hello-world
+  333  docker build -t hello-world
+  334  docker build -t hello-world .
+  335  docker run -e hello-world
+  336  docker run hello-world
+  337  sudo docker run hello-world
+  341  docker build -t hello-world .
+  343  docker build -t hello-world .
+  344  sudo docker run hello-world
+  345  docker images
+  346  docker ps -a
+  347  docker ps
+  348  docker exec -it dc41789467dd
+  349  docker exec -it dc41789467dd javac
+  350  docker container
+  352  docker container ls
+  362  docker run my-alp-app
+  363  docker build -t alp-app .
+  366  docker build -t alp-app .
+  372  docker images
+  373  docker ps -a
+  376  docker build -t hello-world .
+  378  docker build -t hello-world .
+  380  docker build -t hello-world .
+  381  docker run hello-world
+  404  docker build -t java-test1 .
+  405  docker run --rm java-test1
+  414  docker build -t java-test1 .
+  416  docker run --rm java-test1
+  418  docker run --rm -e USER='All' java-test1
+  419  docker run --rm -e java-test1
+  428  docker build -t alp-test1
+  429  docker build -t alp-test1 .
+  430  docker run --rm  alp-test1
+  432  docker build -t alp-test1 .
