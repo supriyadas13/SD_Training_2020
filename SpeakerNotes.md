@@ -1,14 +1,16 @@
 Speaker Notes :
 
 @Naresh
-1. __Project Selection__ : Survey Application with APIs to configure survey definition, participants, questions and answers, send the survey details, receive Survey response and
+1. __Project Selection__ : 
+Survey Application with APIs to configure survey definition, participants, questions and answers, send the survey details, receive Survey response and
 process and save results, create reports.
 Since this is an existing feature in REMS which we intend to modernize, this project helped us build a prototype which we can enhance and incorporate more behaviors to be able to create
 the complete product in near future.
 2 min
 
 @Supriya
-2. MVP : We have listed down behaviors associated with the product, however, we decided to go with some behaviors to create a runnable project with essential base behaviors,
+1. __MVP__ : 
+We have listed down behaviors associated with the product, however, we decided to go with some behaviors to create a runnable project with essential base behaviors,
 those being, Survey configuration  of the components (CRUD on SurveyDefinition, Participant, Questions and Answers), asynchronous communication to Participants with
 unique Survey details.
 Project Enablers :
@@ -18,7 +20,9 @@ Project Enablers :
 3 min
 
 @Prashanti
-3. Tech stack what and Why : Below is the Tech Stack we chose to build this project
+1. __Tech stack what and Why__ : 
+
+Below is the Tech Stack we chose to build this project
 
 - SpringBoot – To build the survey microservices, integrate each, create email communication.
 - Velocity Engine - Email template.
@@ -30,7 +34,8 @@ Project Enablers :
 4 min
 
 @Corban
-4. Project Architecture : HLD
+1. __Project Architecture__ : 
+HLD
    Modules/Microservices :
     SurveyApi - Survey components creation and integration (CRUD on SurveyDefinition, Participant, Questions and Answers), trigger survey to Kafka Producer.
     ProducerApi – Create Kafka topic and publish the same to Kafka Server
@@ -38,7 +43,7 @@ Project Enablers :
 1 min
 
 @Sanket
-5. Actual Demo
+1. __Actual Demo__ :
   - MVN Test (Git actions CI with maven build showcase)
   - Selenium workflow to load the configuration
      Creating Survey definition
@@ -48,7 +53,7 @@ Project Enablers :
 4 min
 
 @Corban
-6. Retrospective
+1. __Retrospective__ :
  - Added Retro from MOM
   - Github actions refactoring fun kafka producer/ consumer sample project good team collaboration object conversion 
  - Using reflection is hard in meta programming.
