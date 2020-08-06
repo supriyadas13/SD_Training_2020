@@ -40,9 +40,9 @@ Below is the Tech Stack we chose to build this project :
 
 * HLD 
 * Modules/Microservices :
-  * SurveyApi - Survey components creation and integration (CRUD on SurveyDefinition, Participant, Questions and Answers), trigger survey to Kafka Producer.
-  * ProducerApi – Create Kafka topic and publish the same to Kafka Server
-  * ConsumerApi – Consumer the sent topic to create email communication and trigger the same.
+  * _SurveyApi_ - Survey components creation and integration (CRUD on SurveyDefinition, Participant, Questions and Answers), trigger survey to Kafka Producer.
+  * _ProducerApi_ – Create Kafka topic and publish the same to Kafka Server
+  * _ConsumerApi_ – Consumer the sent topic to create email communication and trigger the same.
 
 @Sanket
 
