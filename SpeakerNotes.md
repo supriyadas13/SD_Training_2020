@@ -35,6 +35,7 @@ Below is the Tech Stack we chose to build this project :
 * Mckesson concourse Pipeline - CI-CD
 
 @Corban
+
 4. __Project Architecture__ : 
 
 * HLD 
@@ -44,6 +45,7 @@ Below is the Tech Stack we chose to build this project :
   * ConsumerApi – Consumer the sent topic to create email communication and trigger the same.
 
 @Sanket
+
 5. __Actual Demo__ :
 
 * MVN Test (Git actions CI with maven build showcase)
