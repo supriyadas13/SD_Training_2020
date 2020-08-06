@@ -1,7 +1,7 @@
 Speaker Notes :
 
 @Naresh
-* _Project Selection_ : Survey Application with APIs to configure survey definition, participants, questions and answers, send the survey details, receive Survey response and
+1. __Project Selection__ : Survey Application with APIs to configure survey definition, participants, questions and answers, send the survey details, receive Survey response and
 process and save results, create reports.
 Since this is an existing feature in REMS which we intend to modernize, this project helped us build a prototype which we can enhance and incorporate more behaviors to be able to create
 the complete product in near future.
