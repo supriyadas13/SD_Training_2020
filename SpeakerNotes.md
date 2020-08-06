@@ -18,7 +18,7 @@ unique Survey details.
 
  * _Github_ - source control strategy : We used individual branching to build code and Pull requests to merge, review being mandatory for each merge.
  * _Git Projects_ – Behaviors were defined for all features of the product, granularity being tasks that can be established in a day’s time. Out of all the                             behaviors, we selected the MVP ones and worked on the same to move it through the Kanban board.
- * MOM : To track project progress
+ * _MOM_ : To track project progress
 
 @Prashanti
 
@@ -26,13 +26,13 @@ unique Survey details.
 
 Below is the Tech Stack we chose to build this project :
 
-* SpringBoot – To build the survey microservices, integrate each, create email communication.
-* Velocity Engine - Email template.
-* Kafka (Confluent and Dockerised) – To send and receive Survey communication over messaging queue.
-* Docker (Containerization) – To build each service in a container and compose them together using docker compose to bring up the applications.
-* Selenium and RestAsssured for testing end to end.
-* Git actions - CI used during the build
-* Mckesson concourse Pipeline - CI-CD
+* _SpringBoot_ – To build the survey microservices, integrate each, create email communication.
+* _Velocity Engine_ - Email template.
+* _Kafka_ (Confluent and Dockerised) – To send and receive Survey communication over messaging queue.
+* _Docker_ (Containerization) – To build each service in a container and compose them together using docker compose to bring up the applications.
+* _Selenium and RestAsssured_ - For end to end testing.
+* _Git actions_ - CI used during the build
+* _Mckesson concourse Pipeline_ - CI-CD
 
 @Corban
 
