@@ -1,6 +1,7 @@
 __Speaker Notes__
 
 @Naresh
+
 1. __Project Selection__ : 
 Survey Application with APIs to configure survey definition, participants, questions and answers, send the survey details, receive Survey response and
 process and save results, create reports.
@@ -8,6 +9,7 @@ Since this is an existing feature in REMS which we intend to modernize, this pro
 the complete product in near future.
 
 @Supriya
+
 2. __MVP and Project Enablers__  
 
 We have listed down behaviors associated with the product, however, we decided to go with some behaviors to create a runnable project with essential base behaviors,
@@ -19,6 +21,7 @@ unique Survey details.
  * MOM : To track project progress
 
 @Prashanti
+
 3. __Tech stack what and Why__ : 
 
 Below is the Tech Stack we chose to build this project :
@@ -51,6 +54,7 @@ Below is the Tech Stack we chose to build this project :
   * Triggering Correspondence from SurveyDefinition
 
 @Corban
+
 6. __Retrospective__ :
 
 * Added Retro from MOM
